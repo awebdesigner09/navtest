@@ -1,0 +1,39 @@
+.Navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.Navbar ul li {
+    float: left;
+  }
+  
+.Navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .Navbar li a:hover {
+    background-color: #111;
+  }
+  .Navbar li a.active {
+    background-color: #4CAF50;
+  }
+
+  .Logo{
+    background-color: white;
+    padding: 8px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Logo img{
+    height: 100%;
+}
